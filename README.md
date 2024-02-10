@@ -42,6 +42,21 @@ This file contains various environment variables that you can configure.
 │   ├── assets
 │   │   └── fonts ---------- Project fonts
 │   ├── components --------- UI and Detected Common Components
+│   |        └──├── Button.js
+|   |             ├── CancellationMessage.js
+|   |             ├── ComingSoonPayment.js
+|   |             ├── DesktopBookingsummary.js
+|   |             ├── DesktopFaqsection.js
+|   |             ├── DesktopFooter.js
+|   |             ├── DesktopHeader.js
+|   |             ├── DesktopSectionmessage.js
+|   |             ├── ErrorMessage.js
+|   |             ├── Img.js
+|   |             ├── Line.js
+|   |             ├── List.js
+|   |             ├── Pagerindicator.js
+|   |             ├── Paymentmethod.js
+|   |             └── Text.js
 │   ├── constants ---------- Project constants, eg: string consts
 │   ├── hooks -------------- Helpful Hooks
 │   ├── index.jsx
