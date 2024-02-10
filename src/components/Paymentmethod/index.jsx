@@ -51,7 +51,7 @@ const Paymentmethod = (props) => {
 
         <div className="border-gray-300_01 border-solid border-t flex flex-col gap-8 items-start justify-start pb-8 pt-4 w-full">
           <div className="flex flex-col gap-0.5 items-start justify-start w-full">
-            <div className="flex md:flex-col flex-row md:gap-5 items-center justify-start w-full">
+            <div className="flex md:flex-col flex-row md:gap-5 items-start  justify-start w-full">
               <div className="flex flex-1 flex-row gap-1.5 items-start justify-start w-full">
                 <div className="flex flex-col items-start justify-start pb-2 w-auto">
                   <span
@@ -63,7 +63,7 @@ const Paymentmethod = (props) => {
                 </div>
               </div>
               <Button
-                className="cursor-pointer flex items-center justify-center min-w-[132px]"
+                className="cursor-pointer sm:order-first md:-order-1 flex items-center justify-center min-w-[132px]"
                 leftIcon={
                   <Img
                     className="h-3.5 mb-[3px] mr-1"

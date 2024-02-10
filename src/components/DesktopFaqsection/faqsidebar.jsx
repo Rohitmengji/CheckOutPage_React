@@ -22,7 +22,7 @@ function Faqsidebar() {
           </Text>
         </div>
       </div>
-      <div className="bg-gray-50_01 flex sm:flex-col-2  flex-row gap-5 items-start justify-between p-6 sm:px-5 rounded-[16px] w-[446px] sm:w-full">
+      <div className="bg-gray-50_01 flex sm:flex-col-2  flex-row gap-1 items-start justify-between p-6 sm:px-5 rounded-[16px] w-[446px] sm:w-full">
         <div className="flex flex-col gap-5 items-start justify-start w-full">
           <Text
             className="leading-[26.00px] max-w-[240px] md:max-w-full text-gray-900_01 sm:text-sm text-lg"
