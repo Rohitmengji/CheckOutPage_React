@@ -45,7 +45,7 @@ const DesktopBookingsummary = (props) => {
                     src={imageUrls[currentIndex]}
                     alt={`Image ${currentIndex + 1}`}
                   />
-                  <div className="absolute bottom-[0] flex flex-col h-6 md:h-auto inset-x-[0] items-center justify-between mx-auto pb-4 px-3 w-[352px]">
+                  <div className="absolute bottom-[0] flex flex-col h-6 md:h-auto inset-x-[0] items-center justify-between mx-auto pb-4 px-3 ">
                     <PagerIndicator
                       handleNext={handleArrowRightClick}
                       className="flex gap-1.5 h-2 items-center justify-start w-[108px]"
@@ -57,7 +57,10 @@ const DesktopBookingsummary = (props) => {
                       unselectedWrapperCss="inline-block"
                     />
                   </div>
-                  <div className="absolute flex flex-row h-max inset-[0] items-center justify-between m-auto px-3 w-[352px]">
+                  <div
+                    className="absolute flex flex-row h-max inset-[0] items-center justify-between m-auto px-3
+                   lg:w-[352px]"
+                  >
                     <Button
                       className="flex h-8 items-center justify-center w-8"
                       shape="circle"
